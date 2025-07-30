@@ -79,36 +79,29 @@ DAX Measures for Power BI
 
 
 ## Data Analysis
-### 1.  Revenue Growth Year-over-Year
+### 1.   Sales Trend (Jan‑2021 → Mar‑2022)
 Insight:
 
-Revenue has grown steadily from ₹90M in 2017 to ₹130M in 2020, with a peak of ₹145M in 2019.
-Interpretation:
-The business is scaling well, but the slight dip in 2020 might be due to market conditions (e.g., COVID-19 impact).
-### 2. Top Performing Markets
+The line shows steady baseline sales through 2021 with visible micro‑peaks in mid‑year (Jun–Aug) and a sharp spike around Jan‑2022 approaching the $5M tick.
+Early 2022 pullback after the spike (Feb–Mar 2022), but levels remain within the typical 2021 band.
+### 2.  Sales by Geography
 Insight:
 
-Delhi NCR is the most profitable market contributing ~52% of total revenue, followed by Mumbai and Ahmedabad.
-Interpretation:
-These Tier-1 markets are revenue drivers. Consider expansion or retention strategies here.
-### 3.  Best-Selling Products
+New Zealand appears top, followed closely by Canada and India.
+Australia sits mid‑pack; UK and USA are lower in this slice.
+
+### 3.  Salesperson Performance (Table)
 Insight:
 
-Product types like Consumer Electronics and Grocery Essentials top the sales list both in quantity and revenue.
-Interpretation:
-These categories could benefit from targeted promotions and stocking priorities.
-### 4. Monthly Seasonality in Sales
-Insight:
+(Top names in your grid include: Wilone O’Kielt, Van Tuxwell, Roddy Speechley, Madeleine Upcott, Karlen McCaffrey… with ~$1.80–$1.91M sales and ~114K–129K boxes each; LBS% mostly ~8–11%.)
 
-Revenue tends to spike in July and December, indicating seasonal or festival-related boosts.
-Interpretation:
-These periods can be leveraged with promotions, combo offers, or bundled pricing.
-### 5. 🧭 Zone-Wise Distribution
-Insight:
+Leaders are clustered around ~$1.8–$1.9M; no single outlier dominates → healthy distribution.
 
-Northern and Western zones contribute over 75% of revenue.
-Interpretation:
-The South and East zones are underperforming — explore local campaigns, logistics, or product adjustments.
+Wilone O’Kielt tops with ~$1.91M and ~126.8K boxes.
+
+LBS% ranges indicate mix differences by rep (heavier vs lighter products).
+
 ## Dashboard
 
-<img width="1913" height="963" alt="sales dashboard" src="https://github.com/user-attachments/assets/3ec86e45-1683-4905-95b6-1e4460f39fb0" />
+
+<img width="1920" height="1019" alt="chocolate screenshot 1" src="https://github.com/user-attachments/assets/d44df9cd-85fe-4ba4-8fa1-c42334486775" />
