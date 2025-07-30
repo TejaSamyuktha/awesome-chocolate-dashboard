@@ -105,3 +105,12 @@ LBS% ranges indicate mix differences by rep (heavier vs lighter products).
 
 
 <img width="1920" height="1019" alt="chocolate screenshot 1" src="https://github.com/user-attachments/assets/d44df9cd-85fe-4ba4-8fa1-c42334486775" />
+##  Dashboard-2
+<img width="1920" height="1019" alt="chocolate screenshot -2" src="https://github.com/user-attachments/assets/63659fd9-4776-44d8-9341-2f74008dc152" />
+##Parameterization (Manage Parameters)
+
+This report uses Power Query Parameters to make the model easy to reuse and to quickly focus the dashboard on a specific slice (e.g., Product 6 / P06).
+
+##Parameters created
+
+pProductId (Text, Current Value: P06)Controls which product the fact table is filtered to for Dashboard 2 – Product View.
