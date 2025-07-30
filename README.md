@@ -6,6 +6,7 @@
 - [Dataset Description](#dataset-description)
 - [Data Analysis](#data-analysis)
 - [Dashboard](#dashboard)
+- [Dashboard-2](#dashboard)
 
 ## Case Study
 The objective is to analyze Awesome Chocolates sales performance by tracking total sales, boxes shipped, shipment counts, and sales distribution across geographies and salespersons. The dashboard aims to uncover performance trends and highlight opportunities for improved sales strategies.
@@ -105,12 +106,18 @@ LBS% ranges indicate mix differences by rep (heavier vs lighter products).
 
 
 <img width="1920" height="1019" alt="chocolate screenshot 1" src="https://github.com/user-attachments/assets/d44df9cd-85fe-4ba4-8fa1-c42334486775" />
+
 ## Dashboard-2
+
 <img width="1920" height="1019" alt="chocolate screenshot -2" src="https://github.com/user-attachments/assets/63659fd9-4776-44d8-9341-2f74008dc152" />
+
 ## Parameterization (Manage Parameters)
 
-This report uses Power Query Parameters to make the model easy to reuse and to quickly focus the dashboard on a specific slice (e.g., Product 6 / P06).
+This report uses **Power Query Parameters** to keep the model flexible and reusable. Parameters let us focus the dashboard on a specific slice (e.g., **Product 6 / P06**) without rebuilding visuals.
 
-## Parameters created
+### Parameters Created
 
-pProductId (Text, Current Value: P06)Controls which product the fact table is filtered to for Dashboard 2 – Product View.
+- **`ProductId`** *(Text, Current Value: `P06`)*  
+  Controls which product the **sales** fact table loads for **Dashboard 2 – Product View**.  
+  Change it in **Home ▸ Transform data ▸ Manage Parameters** and then **Close & Apply** to refresh for a different product.
+
