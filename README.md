@@ -14,44 +14,38 @@ The objective is to analyze Awesome Chocolates sales performance by tracking tot
 
 Our dataset contains information regarding sales transactions, product details, salespeople, and geographical data. Below are the key tables and fields:
 
-###  Geo
-
-- **geoid** –Geography key
-- **geo** – Geography name (e.g., USA, Canada, India) 
+### **Geo**
+- **geoid** – Geography key  
+- **geo** – Geography name (e.g., USA, Canada, India)  
 - **region** – Regional grouping (e.g., North America, APAC, EMEA)
 
+---
+
+### **Products**
+- **pid** – Product key  
+- **product** – Product name  
+- **category** – Product category  
+- **size** – Pack/box size or weight (e.g., 24‑pc, 500g)  
+- **cost_per_box** – Standard cost per box (used for margin analysis if needed)
 
 ---
 
-###  Products
-
-- **pid** – Product key 
-- **product** –  Product name
-- **category** – Product category 
--**size** –Pack/box size or weight (e.g., 24‑pc, 500g)
--**cost_per_box** – Standard cost per box (used for margin analysis if needed)
+### **People**
+- **salesperson** – Salesperson full name  
+- **spid** – Salesperson key  
+- **team** – Team or business unit  
+- **location** – Base location of the salesperson
 
 ---
 
-###  People
-
-- **salesperson ** – Salesperson full name 
-- **spid** –  Salesperson key 
-- **team** –Team or business unit 
-- **location ** – Base location of the salesperson 
-
----
-
-###  sales
-
-- **spid ** – Salesperson key
-- **geoid ** – Geography key 
-- **pid ** – Product key 
-- **saledate ** –  Calendar date of the sale
-- **amount  ** – Sales value in USD for the row’s grain
-- **customers ** – Number of customers served/transactions counted in this row
-- **boxes ** –  Boxes sold
-
+### **Sales** *(fact table — row grain: `saledate × spid × geoid × pid`)*
+- **spid** – Salesperson key  
+- **geoid** – Geography key  
+- **pid** – Product key  
+- **saledate** – Calendar date of the sale  
+- **amount** – Sales value in USD for the row’s grain  
+- **customers** – Number of customers/transactions represented by the row  
+- **boxes** – Boxes sold
 ---
 
 
